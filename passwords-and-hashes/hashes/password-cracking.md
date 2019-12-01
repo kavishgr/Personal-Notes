@@ -45,5 +45,5 @@ Stopped: Sun Dec  1 19:10:23 2019
 MacBook-Pro:~ kavish$
 ```
 
- The hash value is `stealthagent`.
+ The hash value is `stealth1agent`.
 
