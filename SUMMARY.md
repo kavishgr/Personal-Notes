@@ -1,6 +1,9 @@
 # Table of contents
 
 * [My Notes](README.md)
-* [Decrypt Hashes](password-cracking.md)
-* [Identifying Hashes](identifying-hashes.md)
+
+## Passwords & Hashes
+
+* [Identifying Hashes](passwords-and-hashes/identifying-hashes.md)
+* [Decrypt Hashes](passwords-and-hashes/password-cracking.md)
 
