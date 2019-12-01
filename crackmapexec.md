@@ -32,3 +32,7 @@ Explanation:
 
 -- -- -- -- -- -- -- 
 
+
+
+crackmapexec can also bruteforce RIDs with --rid-brute
+
