@@ -16,6 +16,8 @@ Decrypted password: $uperP@ssword
 
 The hash : `$1$pdQG$o8nrSzsGXeaduXrjlvKc91`
 
+Copy the hash in a file called hash.txt, the run:
+
 Command: `hashcat -m 500 hash.txt wordlist.txt`
 
 ```text
@@ -46,4 +48,26 @@ MacBook-Pro:~ kavish$
 ```
 
  The hash value is `stealth1agent`.
+
+With JtR \(one liner\):
+
+`john --wordlist=/usr/share/wordlists/rockyou.txt ./ciscomd5.txt`
+
+```text
+root@kavishgr:~/AutoRecon/results/heistHTB/loot# cat ciscomd5.txt 
+$1$pdQG$o8nrSzsGXeaduXrjlvKc91
+
+root@kavishgr:~/AutoRecon/results/heistHTB/loot# john --wordlist=/usr/share/wordlists/rockyou.txt ./ciscomd5.txt 
+Warning: detected hash type "md5crypt", but the string is also recognized as "md5crypt-long"
+Use the "--format=md5crypt-long" option to force loading these as that type instead
+Using default input encoding: UTF-8
+Loaded 1 password hash (md5crypt, crypt(3) $1$ (and variants) [MD5 128/128 AVX 4x3])
+Press 'q' or Ctrl-C to abort, almost any other key for status
+stealth1agent    (?)
+1g 0:00:01:30 DONE (2019-12-01 22:17) 0.01110g/s 38929p/s 38929c/s 38929C/s stealth323..stealth1967
+Use the "--show" option to display all of the cracked passwords reliably
+Session completed
+
+root@kavishgr:~/AutoRecon/results/heistHTB/loot# 
+```
 
