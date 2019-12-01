@@ -28,6 +28,8 @@ CME          10.10.10.149:445 SUPPORTDESK     C$              NO ACCESS
 
 ```
 
+**Disadvantage:** It stops after finding the first valid credentials.
+
 Explanation:
 
 -- -- -- -- -- -- -- 
