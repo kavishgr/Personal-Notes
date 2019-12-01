@@ -29,5 +29,21 @@ root@kavishgr:/usr/share/doc/python3-impacket/examples#
 
 ```
 
+lookupsid.py uses rpcclient to do the brute force. like so:
 
+```text
+root@kavishgr:~/AutoRecon/results/heistHTB/loot# rpcclient -U 'hazard%stealth1agent' 10.10.10.149
+rpcclient $> lookupnames administrator
+administrator S-1-5-21-4254423774-1266059056-3197185112-500 (User: 1)
+rpcclient $> 
+rpcclient: missing argument
+rpcclient $> lookupnames hazard
+hazard S-1-5-21-4254423774-1266059056-3197185112-1008 (User: 1)
+rpcclient $> 
+
+```
+
+instead of trying all sids until you find a valid, lookupsid.py will do that for you.
+
+What is rpcclient ? why do we use it ? what can it do ? 
 
