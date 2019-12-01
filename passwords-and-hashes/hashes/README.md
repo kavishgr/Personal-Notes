@@ -24,5 +24,7 @@ types of hash functions
 
 {% embed url="https://guide.offsecnewbie.com/password-cracking\#hashcat-cheatsheet" %}
 
+{% embed url="https://github.com/six2dez/OSCP-Human-Guide" %}
+
 
 
