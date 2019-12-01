@@ -7,4 +7,5 @@
 * [Hashes](passwords-and-hashes/hashes/README.md)
   * [Identifying Hashes](passwords-and-hashes/hashes/identifying-hashes.md)
   * [Decrypt Hashes](passwords-and-hashes/hashes/password-cracking.md)
+* [crackmapexec](crackmapexec.md)
 
