@@ -27,3 +27,12 @@ HASH: $fvde$1$16$84286044060108438487434858307513$20000$f1620ab93192112f0a23eea8
 
 ```
 
+```text
+root@kavishgr:~/AutoRecon/results/heistHTB/loot/hashID# hashid '$1$pdQG$o8nrSzsGXeaduXrjlvKc91'
+Analyzing '$1$pdQG$o8nrSzsGXeaduXrjlvKc91'
+[+] MD5 Crypt 
+[+] Cisco-IOS(MD5) 
+[+] FreeBSD MD5 
+
+```
+
