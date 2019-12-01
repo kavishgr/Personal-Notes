@@ -1,6 +1,6 @@
 # Decrypt Hashes
 
-## Decrypt Cisco type 7 password
+## Decrypt Cisco Type 7 password
 
 {% embed url="https://github.com/theevilbit/ciscot7" %}
 
