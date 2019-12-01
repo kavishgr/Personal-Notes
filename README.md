@@ -1,4 +1,2 @@
-# Testing
-
-Testing
+# Initial page
 
