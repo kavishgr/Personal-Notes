@@ -12,5 +12,7 @@ python ciscot7.py -d -p 0242114B0E143F015F5D1E161713
 Decrypted password: $uperP@ssword
 ```
 
+## Crack MD5 Hash
+
 
 
