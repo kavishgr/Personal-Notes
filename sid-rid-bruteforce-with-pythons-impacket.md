@@ -48,7 +48,7 @@ rpcclient $>
 
 ```
 
-instead of trying all sids until you find a valid, lookupsid.py will do that for you.
+instead of trying all sids until you find a valid one, lookupsid.py will do that for you.
 
 What is rpcclient ? why do we use it ? what can it do ? 
 
