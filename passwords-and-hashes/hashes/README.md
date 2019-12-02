@@ -26,5 +26,7 @@ types of hash functions
 
 {% embed url="https://github.com/six2dez/OSCP-Human-Guide" %}
 
+{% embed url="https://github.com/kavishgr/smbmap" %}
+
 
 
