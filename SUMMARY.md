@@ -10,4 +10,5 @@
 * [crackmapexec](crackmapexec.md)
 * [SID\(/RID\) Bruteforce with Python's Impacket](sid-rid-bruteforce-with-pythons-impacket.md)
 * [evil-winrm](evil-winrm.md)
+* [juicy potato - mock](juicy-potato-mock.md)
 
