@@ -1,5 +1,5 @@
 ---
-description: To get a windows shell
+description: Getting a shell from a Windows machine.
 ---
 
 # evil-winrm
