@@ -9,4 +9,5 @@
   * [Decrypt Hashes](passwords-and-hashes/hashes/password-cracking.md)
 * [crackmapexec](crackmapexec.md)
 * [SID\(/RID\) Bruteforce with Python's Impacket](sid-rid-bruteforce-with-pythons-impacket.md)
+* [evil-winrm](evil-winrm.md)
 
