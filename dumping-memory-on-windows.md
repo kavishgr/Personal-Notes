@@ -12,5 +12,19 @@ Download it and unzip it, then upload it on the target through evil-winrm:
 
 ![](.gitbook/assets/procdump64.png)
 
+Now use `Get-Process` to get a list of running processes:
+
+![](.gitbook/assets/getproc.png)
+
+Accept the procdump eula:
+
+```text
+./procdump64.exe -accepteula
+```
+
+Then run `./procdump64.exe -ma [ID]` to dump a process's memory:
+
+![](.gitbook/assets/memdumped.png)
+
 
 
