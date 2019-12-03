@@ -23,3 +23,5 @@ This means the user has right access on both `ADMIN$` and `C$`.
 
 Now run `psexec.py`
 
+![Got a shell](.gitbook/assets/psexecshell.png)
+
