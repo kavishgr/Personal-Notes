@@ -10,7 +10,7 @@ The `Sysinternals Suite` contains the executable. It contains both 32 and 64-bit
 
 Download it and unzip it, then upload it on the target through evil-winrm:
 
-
+![](.gitbook/assets/procdump64.png)
 
 
 
