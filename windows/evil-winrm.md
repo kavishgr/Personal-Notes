@@ -24,7 +24,7 @@ ruby evil-rm.rb -u chase -p 'Q4)sJu\Y8qz*A3?d' -i 10.10.10.149
 
 Full output:
 
-![evil-winrm shell](.gitbook/assets/evilwinrm.png)
+![evil-winrm shell](../.gitbook/assets/evilwinrm.png)
 
 
 

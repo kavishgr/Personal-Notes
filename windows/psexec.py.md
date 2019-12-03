@@ -12,16 +12,16 @@ PsExec is a light-weight telnet-replacement that lets you execute processes on o
 
 psexec.py will spawn a shell for the specified user only if the `ADMIN$` and `C$` shares are writable:
 
-![](.gitbook/assets/notwriteshares.png)
+![](../.gitbook/assets/notwriteshares.png)
 
 We can verify this with `crackmapexec.`
 
-![](.gitbook/assets/admincshareswrite.png)
+![](../.gitbook/assets/admincshareswrite.png)
 
  Notice the `(Pwn3d!)` 🥳   
 This means the user has right access on both `ADMIN$` and `C$`.
 
 Now run `psexec.py`
 
-![Got a shell](.gitbook/assets/psexecshell.png)
+![Got a shell](../.gitbook/assets/psexecshell.png)
 
