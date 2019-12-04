@@ -19,7 +19,7 @@ We can verify this with `crackmapexec.`
 ![](../.gitbook/assets/admincshareswrite.png)
 
  Notice the `(Pwn3d!)` 🥳   
-This means the user has right access on both `ADMIN$` and `C$`.
+This means the user has write access on both `ADMIN$` and `C$`.
 
 Now run `psexec.py`
 
