@@ -1,6 +1,6 @@
 # Identifying Hashes
 
-MD5 
+#### MD5 
 
 ```text
 root@kavishgr:~/AutoRecon/results/heistHTB/loot/hashID# hashcat --example-hashes | grep -B2 '\$1\$'
