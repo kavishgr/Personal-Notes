@@ -21,3 +21,7 @@
 * [SID\(/RID\) Bruteforce with Python's Impacket](windows/sid-rid-bruteforce-with-pythons-impacket.md)
 * [wfuzz](wfuzz.md)
 
+## Python
+
+* [Decompile PYC file](python/decompile-pyc-file.md)
+
