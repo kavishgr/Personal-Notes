@@ -19,4 +19,5 @@
 * [Dumping memory on Windows](windows/dumping-memory-on-windows.md)
 * [psexec.py](windows/psexec.py.md)
 * [SID\(/RID\) Bruteforce with Python's Impacket](windows/sid-rid-bruteforce-with-pythons-impacket.md)
+* [wfuzz](wfuzz.md)
 
