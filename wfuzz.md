@@ -24,3 +24,11 @@ Output:
 
 ![](.gitbook/assets/wfuzzpost.png)
 
+or
+
+```text
+wfuzz -c -w /usr/share/seclists/Passwords/darkweb2017-top1000.txt -d "username=admin&password=FUZZ&login=login" --hc 403 'URL'
+
+
+```
+
