@@ -6,6 +6,10 @@ description: PSEXEC like functionality written in Python.
 
 PsExec is a light-weight telnet-replacement that lets you execute processes on other systems, complete with full interactivity for console applications.
 
+{% embed url="https://adamtheautomator.com/psexec-ultimate-guide/\#what-is-psexec-exe" %}
+
+
+
 {% embed url="https://pen-testing.sans.org/blog/2013/03/27/psexec-python-rocks" %}
 
 {% embed url="https://www.secureauth.com/labs/open-source-tools/impacket" %}
