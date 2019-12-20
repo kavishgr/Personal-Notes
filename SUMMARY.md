@@ -32,4 +32,5 @@
 * [21 - FTP](ports-services/21-ftp.md)
 * [23 - Telnet](ports-services/23-telnet.md)
 * [79 - Pentesting Finger](ports-services/79-pentesting-finger.md)
+* [80 - HTTP/Web Apps](ports-services/80-http-web-apps.md)
 
