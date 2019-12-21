@@ -84,7 +84,7 @@ List of available commands:
 
 ## crackmapexec
 
-### List shares
+### List shares and permissions
 
 ![List of shares and associated permissions](../.gitbook/assets/crackmapexeclistshares.png)
 
@@ -94,5 +94,13 @@ The syntax is:
 crackmapexec smb 10.10.10.3 -u '' -p '' --shares
 ```
 
-Leave **-u** ' ' and **-p** ' ' blank to verify if a null/anonymous session is accessible.
+Leave **-u** ' ' and **-p** ' ' blank to verify if a null/anonymous session is available.
+
+## Tips
+
+Knowing the version of Samba, the different shares we have available to potentially access \(and maybe write to\) as well as the list of users on the box gives us several options for gaining access.
+
+1. Brute force
+2. If we can find a Local File Inclusion vulnerability in a web app on the server and a writable share on the Samba service, we can have the web server execute the code of our choosing.
+3. Remote Code Execution or some other exploit on the Samba service itself.
 
