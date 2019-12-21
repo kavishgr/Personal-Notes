@@ -16,6 +16,14 @@ SMBMap allows users to enumerate samba share drives across an entire domain. Lis
 
 ![](../.gitbook/assets/smbmap1.png)
 
+* **-H**: specify the host
+
+We can see the samba version: **Samba 3.0.20-Debian**
+
+The list of permissions on which share we have access or not. Sometimes credentials are needed to access the shares/domains.
+
+* **-R**: recursively list directories, and files
+
 
 
 ### smbclient
