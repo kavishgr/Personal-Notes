@@ -8,9 +8,7 @@ SMB stands for server message block. It’s a protocol for sharing resources lik
 nmap -sC -p 139,445 -sV 10.10.10.3
 ```
 
-## Enumeration
-
-### smbmap
+## smbmap
 
 SMBMap allows users to enumerate samba share drives across an entire domain. List share drives, drive permissions, share contents, upload/download functionality, file name auto-download pattern matching, and even execute remote commands. This tool was designed with pen testing in mind, and is intended to simplify searching for potentially sensitive data across large networks.
 
@@ -24,7 +22,77 @@ The list of permissions on which share we have access or not. Sometimes credenti
 
 * **-R**: recursively list directories, and files
 
+![](../.gitbook/assets/smbmaprecursive.png)
+
+**Only the shares with read/write access will get listed**. That's because anonymous access is allowed. In the real world, you'll to provide a username and password.
+
+* **-P**: to specify a different port. By default it's 445.
+
+### Downloading files
+
+![File downloaded in the current directory](../.gitbook/assets/smbmapdl.png)
+
+The syntax is: 
+
+```text
+smbmap -H 10.10.10.3 --download '$sharename/path_to_file'
+```
+
+Inside quotes, append a dollar sign '$' before the sharename followed by the file to download.
+
+### Uploading files
+
+![upload complete](../.gitbook/assets/smbmapupload.png)
+
+The syntax is:
+
+```text
+smbmap -H 10.10.10.3 --upload 'SRC' 'DST'
+```
+
+The $ sign is mandatory on Linux\(not sure\).
+
+Verify upload:
+
+![Uploaded file is highlighted.](../.gitbook/assets/smbmapverifyupload.png)
 
 
-### smbclient
+
+
+
+#### 
+
+## smbclient
+
+An ftp-like client to access SMB/CIFS resources on servers. The tool is part of the samba suite.
+
+The syntax is:
+
+```text
+smbclient \\\\10.10.10.10\\sharename
+```
+
+![For anonymous login just press enter for the password.](../.gitbook/assets/smbclient.png)
+
+List of available commands:
+
+![list of commands to interact with smb share](../.gitbook/assets/smbclienthelp.png)
+
+
+
+
+
+## crackmapexec
+
+### List shares
+
+![List of shares and associated permissions](../.gitbook/assets/crackmapexeclistshares.png)
+
+The syntax is:
+
+```text
+crackmapexec smb 10.10.10.3 -u '' -p '' --shares
+```
+
+Leave **-u** ' ' and **-p** ' ' blank to verify if a null/anonymous session is accessible.
 
