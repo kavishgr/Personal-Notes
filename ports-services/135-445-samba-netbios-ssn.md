@@ -1,4 +1,4 @@
-# 135/445 - Samba/netbios-ssn
+# 135/445 - Samba/smb/netbios-ssn/
 
 SMB stands for server message block. It’s a protocol for sharing resources like files, printers, in general any resource which should be retrievable or made available by the server. It primarily runs on port 445 or port 139 depending on the server . It is actually natively available in windows, so windows users don’t need to configure anything extra as such besides basic setting up. In linux however ,it is a little different. To make it work for linux, you need to install a samba server because linux natively does not use SMB protocol.
 

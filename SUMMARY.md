@@ -33,5 +33,5 @@
 * [23 - Telnet](ports-services/23-telnet.md)
 * [79 - Pentesting Finger](ports-services/79-pentesting-finger.md)
 * [80 - HTTP/Web Apps](ports-services/80-http-web-apps.md)
-* [135/445 - Samba/netbios-ssn](ports-services/135-445-samba-netbios-ssn.md)
+* [135/445 - Samba/smb/netbios-ssn/](ports-services/135-445-samba-netbios-ssn.md)
 
