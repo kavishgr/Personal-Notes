@@ -64,7 +64,7 @@ Since PHP is retrieving file on the system, the url can be manipulated to view s
 
 ![](../.gitbook/assets/pass.png)
 
-The content `/etc/passwd` of password. In this case `.` and `/` was acceptable characters. In the url, `/` was html encoded to `%2F`. The full URL is `[IP]/URLTest3.php?account=..%2F..%2Fetc%2Fpasswd`.
+The content of `/etc/passwd`. In this case `.` and `/` was acceptable characters. In the url, `/` was html encoded to `%2F`. The full URL is `[IP]/URLTest3.php?account=..%2F..%2Fetc%2Fpasswd`.
 
 ## SQL Injection
 
