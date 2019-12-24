@@ -20,7 +20,7 @@
 
 An automated input hack manipulates a URL and sends it back to the server, telling the web application to do various things, such as redirect to third-party sites, load sensitive files off the server, and so on. Local file inclusion is one such vulnerability.
 
-### Basic Demo with PHP from metasploitable2
+### Basic LFI demo with PHP from metasploitable2
 
 Here's a form that accepts an account ID for submission:
 
