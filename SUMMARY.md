@@ -11,7 +11,7 @@
 ## Windows
 
 * [Basic](windows/basic/README.md)
-  * [Filesystem](windows/basic/filesystem.md)
+  * [Powershell](windows/basic/filesystem.md)
   * [Test](windows/basic/test.md)
 * [crackmapexec](windows/crackmapexec.md)
 * [evil-winrm](windows/evil-winrm.md)
