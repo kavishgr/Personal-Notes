@@ -35,3 +35,7 @@
 * [80 - HTTP/Web Apps](ports-services/80-http-web-apps.md)
 * [135/445 - Samba/smb/netbios-ssn/](ports-services/135-445-samba-netbios-ssn.md)
 
+## Web Security Academy: Notes <a id="web-security-academy-notes-1"></a>
+
+* [Intro](web-security-academy-notes-1/intro.md)
+
