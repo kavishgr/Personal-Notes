@@ -39,3 +39,7 @@
 
 * [Intro](web-security-academy-notes-1/intro.md)
 
+## Privilege Escalation
+
+* [Linux](privilege-escalation/linux.md)
+
