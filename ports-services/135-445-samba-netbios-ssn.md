@@ -1,15 +1,11 @@
 # 135/445 - Samba/smb/netbios-ssn/
 
-[https://www.wonderhowto.com/](https://www.wonderhowto.com/)
-
-
-
 SMB stands for server message block. It’s a protocol for sharing resources like files, printers, in general any resource which should be retrievable or made available by the server. It primarily runs on port 445 or port 139 depending on the server . It is actually natively available in windows, so windows users don’t need to configure anything extra as such besides basic setting up. In linux however ,it is a little different. To make it work for linux, you need to install a samba server because linux natively does not use SMB protocol.
 
 * run the following to find out the version of the smb server:
 
 ```text
-nmap -sC -p 139,445 -sV 10.10.10.3
+nmap -sC -p 139,445 -sV 1.1.1.1
 ```
 
 ## smbmap
@@ -34,7 +30,7 @@ The list of permissions on which share we have access or not. Sometimes credenti
 
 ### Downloading files
 
-![File downloaded in the current directory](../.gitbook/assets/smbmapdl.png)
+![File will be downloaded in the current directory](../.gitbook/assets/smbmapdl.png)
 
 The syntax is: 
 
@@ -86,9 +82,7 @@ List of available commands:
 
 
 
-## crackmapexec
-
-### List shares and permissions
+## List shares with crackmapexec
 
 ![List of shares and associated permissions](../.gitbook/assets/crackmapexeclistshares.png)
 
