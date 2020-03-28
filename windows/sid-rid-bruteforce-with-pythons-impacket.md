@@ -1,7 +1,7 @@
 # SID\(/RID\) Bruteforce with Python's Impacket
 
 ```text
-root@kavishgr:~/AutoRecon/results/heistHTB/loot# cd /usr/share/doc/python3-impacket/examples/
+root@kavishgr:~/# cd /usr/share/doc/python3-impacket/examples/
 
 root@kavishgr:/usr/share/doc/python3-impacket/examples# ls
 atexec.py      getPac.py       kintercept.py     nmapAnswerMachine.py  raiseChild.py     secretsdump.py  sniff.py
